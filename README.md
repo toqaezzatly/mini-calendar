@@ -1,10 +1,14 @@
-# mini-calender
 
-A mini calender made using html, css and javascript.
+# Mini Calendar
+
+A simple mini calendar built with HTML, CSS, and JavaScript.
 
 ## Features
 
-- Display the current date, day, month and year.
-- Display the current day of the week.
+- Shows the current date, day of the week, month, and year.
+- Highlights the current day of the week for easy reference.
 
-![alt text](image.png)
+![Mini Calendar Screenshot](image.png)
+
+[**Live Demo**](https://toqaezzatly.github.io/mini-calendar/)
+
