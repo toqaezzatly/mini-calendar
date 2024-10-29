@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="hero">
+<div class="calender">
+<div class="lower-calender">
+    <p id = "day">01</p>
+    <p id = "day-name">sunday</p>
+</div>
+<div class="upper-calender">
+    <p id = "month">January</p>
+    <p id = "year">2024</p>
+</div>    
+</div>  
+</div>
+
+<script>
+
+const day = document.getElementById("day");
+const dayName = document.getElementById("day-name");
+const month = document.getElementById("month");
+const year = document.getElementById("year");
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const today = new Date();
+console.log(today);
+day.innerHTML = today.getDate();
+dayName.innerHTML = days[today.getDay()];
+month.innerHTML = months[today.getMonth()];
+year.innerHTML = today.getFullYear();
+
+
+</script>
+
+</body>
+</html>
